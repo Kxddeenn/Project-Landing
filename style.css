@@ -1,17 +1,55 @@
-.header {
-    background: #1F2937 ;
-    display: flex;
-    flex-direction: column;
 
+/* This is for header */
+
+.header {
+    flex: 1;
+    display: flex;
+    background: #1F2937 ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 40px;
 }
 
 .logo {
+    height: 50px;
     width: 100px;
-    height: 100px;
+    
+    
 }
 
+
 .title {
-    font-weight: extra-bold;
-    font-size: 48px;
+    font-weight: 100px;
+    font-size: 30px;
     color: #F9FAF8;
 }
+
+.listh {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    gap: 30px;
+    margin-right: 50px;
+    
+}
+
+.listh a {
+    text-decoration: none;
+    color:#F9FAF8;
+    font-size: 20px;
+    font-weight: 100px;
+}
+
+
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
