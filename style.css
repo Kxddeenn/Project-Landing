@@ -56,32 +56,48 @@ a {
 
 /* Body Sign up */
 
-.picture.header {
+.picture-in-header {
     background-color: #1F2937;
-    padding: 50px;
+    padding: 70px;
     color:#F9FAF8;
-    font-size: 30px;
-}
-
-.picture.text{
-    font-size: 20px;
-}
-
-.image {
-    flex:1;
+    font-size: 40px;
     display: flex;
-
-}
-
-.picture.in{
-    flex:1;
-    flex-direction: row;
-    align-items: flex-start;
+    justify-content: space-evenly;
+    font-weight: bold;
+    
     
 }
 
+.picture-in-text{
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: normal;
+    margin-right: 60px;
+}
 
 
+.picture-in-button{
+    font-size:  18px;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    padding: 15px;
+    border-radius: 50px;
+    border:none;
+    font-weight: bold;
+}
+
+
+/* Sign up buttom */
+
+.sign-up {
+    background-color: #3882F6 ;
+    display: flex;   
+    color:#F9FAF8;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
 
 
 /* Footer Styling */
