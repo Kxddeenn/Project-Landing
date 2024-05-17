@@ -103,6 +103,11 @@ a {
 }
 
 
+.info {
+    display: flex;
+    flex-direction: row;
+}
+
 
 /* Quote Styling */
 
@@ -134,11 +139,40 @@ a {
 /* Sign up button */
 
 .sign-up {
-    background-color: #3882F6 ;
-    display: flex;   
+    background-color: #3882F6 ; 
     color:#F9FAF8;
-    flex-direction: column;
-    align-items: flex-start;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.sign-click {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.sign-button {
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    font-size: 17px;
+    border-color: #F9FAF8;
+    font-weight: bold;
+    border-radius: 20px;
     
 }
 
