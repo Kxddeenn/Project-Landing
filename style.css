@@ -102,9 +102,32 @@ a {
 
 }
 
+.random-info {
+    display: flex;
+}
 
 
+.slots{
+    width: 150px;
+    height: 150px;
+}
 
+.roulette {
+    width: 150px;
+    height: 150px;
+}
+
+
+.cards {
+    width: 150px;
+    height: 150px;
+}
+
+.craps {
+    width: 150px;
+    height: 150px;
+}
+    
 
 /* Quote Styling */
 
@@ -119,6 +142,7 @@ a {
     padding-top: 50px;
     align-items: center;
     gap: 20px;
+    margin-top: 50px;
     
 }
 
