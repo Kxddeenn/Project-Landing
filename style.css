@@ -104,7 +104,31 @@ a {
 
 
 
+/* Quote Styling */
 
+.quote {
+    display: flex; 
+    flex-direction: column;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 300px;
+
+}
 
 
 /* Sign up button */
