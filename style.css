@@ -104,7 +104,11 @@ a {
 
 .random-info {
     display: flex;
+    justify-content: space-around;
+    
 }
+
+
 
 
 .slots{
