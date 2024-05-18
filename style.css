@@ -90,71 +90,40 @@ a {
 
 /* Random info section */
 
-.info-content {
+.title-body {
     display: flex;
-    flex-wrap: wrap;
-    padding: 48px 48px 96px 48px;
-    gap: 36px;
     justify-content: center;
-}
-
-.info-img-placeholder {
-    height: 200px;
-    width: 200px;
-    border: 4px solid #3882F6;
-    border-radius: 8px;
-}
-
-.card-one-text,
-.card-two-text,
-.card-three-text,
-.card-four-text {
-    width: 200px;
-    text-align: center;
+    align-items: center;
+    padding: 50px;
+    font-size: 40px;
     color: #1F2937;
+    font-weight: bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.information h2 {
-    font-size: 36px;
-    font-weight: 900;
-    color: #1F2937;
+.random-info {
+    display: flex;
+    justify-content: space-evenly;
+
 }
 
-.information {
+
+.slots-text, .roulette-text, .cards-text, .craps-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-
-
-
-
-
-
-
-.slots{
-    width: 150px;
-    height: 150px;
-}
-
-.roulette {
-    width: 150px;
-    height: 150px;
-}
-
-
-.cards {
-    width: 150px;
-    height: 150px;
-}
-
-.craps {
-    width: 150px;
-    height: 150px;
-}
+    gap: 25px;
+    font-size: 20px;
     
+}
+
+
+.slots, .roulette, .cards, .craps {
+    width: 150px;
+    height: 150px;
+}
+
 
 /* Quote Styling */
 
